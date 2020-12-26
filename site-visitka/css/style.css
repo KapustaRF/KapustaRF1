@@ -1,0 +1,133 @@
+*{
+	padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+@font-face{
+	font-family: RobotoR;
+	src: url(../fonts/Roboto-Regular.ttf);
+}
+html, body, main{
+	height: 100%;
+	font-family: RobotoR;
+}
+.first{
+	height: 95%;
+    background: url(../img/img06.jpg);
+    background-position: center;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+.first p {
+	color: pink;
+}
+.tourism {
+	width: 100%;
+	text-align: center;
+	padding-top: 80px;
+	font-size: 20px;
+}
+.text-container {
+	width: 40%;
+	margin-left: 15%;
+	margin-top: 15%;
+}
+.first-line {
+	text-transform: uppercase;
+	font-size: 26px;
+	font-weight: bold;
+	letter-spacing: 1px;
+	opacity: 0.5;
+	line-height: 1;
+}
+.second-line {
+	text-transform: uppercase;
+	font-size: 64px;
+	font-weight: bold;
+	letter-spacing: 5px;
+	line-height: 1;
+	margin-bottom: 10px;
+}
+.third-line {
+	font-size: 16px;
+    letter-spacing: 1px;
+}
+.second {
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	-ms-align-items: center;
+	align-items: center; 
+}
+.gallery-container {
+     width: 60%;
+     max-width: 1000px;
+     color: #E366B5;
+}
+.img-container {
+	width: 100%;
+	display: flex;
+	-ms-align-items: flex-start;
+	align-items: flex-start;
+}
+img {
+	display: block;
+	max-width: 100%;
+	height: auto;
+	box-shadow: 24px 17px 30px 2px #C062D3;
+}
+.img4 {
+	width: 59%;
+}
+.wrapper {
+	margin-left: 30px;
+}
+.img2 {
+	margin-bottom: 20px;
+}
+.gallery-text {
+	display: flex;
+	-ms-align-items:center;
+	align-items: center;
+	margin-bottom: 40px;
+}
+.gallery-header {
+	font-size: 48px;
+	font-weight: bold;
+	letter-spacing: 2px;
+	line-height: 1;
+}
+.gallery-p {
+	font-size: 14px;
+	width: 60%;
+	text-align: justify;
+    margin-left: 60px;
+}
+.last-container {
+	display: flex;
+	justify-content: center;
+    -ms-align-items: center;
+    align-items: center;
+    flex-direction: column;
+    height: 350px;
+    padding: 0 25%;
+    background-image: url(../img/img04.jpg);
+    background-position: center;
+    -webkit-background-size: cover;
+    background-size: cover;
+    font-family: Roboto;   
+}
+.last-header {
+    color: #2C17B1;
+    font-size: 30px;
+    padding: 10px 20px;
+    border: 1px solid white;
+    margin-bottom: 20px;
+}
+.last-text {
+	color: #2C17B1;
+	font-size: 27px; 
+	text-align: center;
+	line-height: 1.5;
+	letter-spacing: 1px;
+}
